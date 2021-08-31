@@ -1,0 +1,1 @@
+select shirts.shirtName, shirts.shirtCost from Shirts where shirts.shirtcost < (select avg(shirtCost) From shirts)

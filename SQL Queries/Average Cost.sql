@@ -1,0 +1,1 @@
+select avg(shirtCost) AS AverageCost from shirts where (shirtID = 11111 or shirtID = 100) 
