@@ -1,1 +1,0 @@
-select * from transaction where PhoneNumber is Null
